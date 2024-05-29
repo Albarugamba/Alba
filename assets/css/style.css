@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #53a653;
+  color: #354ed9;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #53a653;
+  background: #354ed9;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -78,7 +78,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #032858;
   overflow-y: auto;
 }
 
@@ -121,7 +121,7 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #53a653;
+  background: #354ed9;
   color: #fff;
   text-decoration: none;
 }
@@ -170,7 +170,7 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #d1cece;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -196,7 +196,7 @@ h6 {
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #53a653;
+  color: #354ed9;
 }
 
 /* Mobile Navigation */
@@ -209,7 +209,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #53a653;
+  background-color: #354ed9;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -234,12 +234,12 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70vh;
-  padding: 100px 15px;
+  height: 40vh;
+  /* padding: 100px 15px; */
   background: linear-gradient(rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)), url("../img/backgr.jpg") top center;
+      rgba(0, 0, 0, 0.2)), url("https://img.freepik.com/free-vector/abstract-technology-particle-background_23-2148426649.jpg") top center;
   background-attachment: fixed;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .1);
+  /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .1); */
   background-size: cover;
   background-position: center;
 }
@@ -253,7 +253,7 @@ h6 {
   left: 0;
   right: 0;
   z-index: 1;
-  height: 70vh;
+  height: 40vh;
 }
 
 #hero .hero-container {
@@ -281,7 +281,7 @@ h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #53a653;
+  border-bottom: 3px solid #354ed9;
 }
 
 @media (min-width: 1024px) {
@@ -338,7 +338,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #53a653;
+  background: #354ed9;
   bottom: 0;
   left: 0;
 }
@@ -374,7 +374,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #53a653;
+  color: #354ed9;
   line-height: 0;
 }
 
@@ -397,7 +397,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #53a653;
+  color: #354ed9;
   float: left;
   line-height: 0;
 }
@@ -467,7 +467,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #53a653;
+  background-color: #354ed9;
 }
 
 /*--------------------------------------------------------------
@@ -563,7 +563,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #53a653;
+  color: #354ed9;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -653,11 +653,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #53a653;
+  border: 1px solid #354ed9;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #53a653;
+  background-color: #354ed9;
 }
 
 .portfolio-details .portfolio-info {
@@ -711,10 +711,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #53a653;
+  background: #354ed9;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #53a653;
+  border: 1px solid #354ed9;
 }
 
 .services .icon i {
@@ -728,7 +728,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #53a653;
+  color: #354ed9;
 }
 
 .services .title {
@@ -743,7 +743,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #53a653;
+  color: #354ed9;
 }
 
 .services .description {
@@ -832,11 +832,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #53a653;
+  border: 1px solid #354ed9;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #53a653;
+  background-color: #354ed9;
 }
 
 /*--------------------------------------------------------------
@@ -855,7 +855,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #53a653;
+  color: #354ed9;
   float: left;
   width: 44px;
   height: 44px;
@@ -906,14 +906,14 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #53a653;
+  background: #354ed9;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #53a653;
+  background: #354ed9;
   color: #fff;
 }
 
@@ -1002,7 +1002,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #53a653;
+  background: #354ed9;
   border: 0;
   padding: 10px 24px;
   color: #fff;
